@@ -8,29 +8,29 @@ Publisher: Armin Osaj & Samuel Schiegg
 PublisherUrl: https://github.com/AutoDarkMode
 PublisherSupportUrl: https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/issues
 PrivacyUrl: https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/blob/master/PRIVACY.md
-Author: Armin2208
+Author: Armin Osaj & Samuel Schiegg
 PackageName: Auto Dark Mode
 PackageUrl: https://github.com/AutoDarkMode/Windows-Auto-Night-Mode
 License: GNU General Public License v3.0
 LicenseUrl: https://raw.githubusercontent.com/AutoDarkMode/Windows-Auto-Night-Mode/master/LICENSE
-# Copyright:
-CopyrightUrl: https://raw.githubusercontent.com/AutoDarkMode/Windows-Auto-Night-Mode/master/LICENSE
-ShortDescription: Automatically switches between the dark and light theme of Windows 10 and Windows 11.
+Copyright: © 2023 Armin Osaj & Samuel Schiegg
+# CopyrightUrl: https://raw.githubusercontent.com/AutoDarkMode/Windows-Auto-Night-Mode/master/LICENSE
+ShortDescription: Switches between the dark and light theme of Windows at scheduled times.
 Description: |-
-  Automatically switches between the dark and light theme of Windows 10 and Windows 11.
-  Auto Dark Mode helps you to be more productive.
-  Because you shouldn't care about changing Windows settings several times a day.
-  As soon as the sun goes down, we'll take care of everything for you.
-  Because a simple design change would be too boring, Auto Dark Mode is packed with useful functions.
-  For example, we can also change your desktop wallpaper.
-# Moniker:
+  Tired of looking at dark content while the sun is shining brightly? But at night everything is suddenly too bright? Auto Dark Mode is the solution for you!
+  Android, iOS and MacOS already offer the possibility of changing the system design based on the time of the day. We're bringing this feature to Windows on a larger scale.
+  Auto Dark Mode helps you to be more productive. Because you shouldn't care about changing Windows settings several times a day. As soon as the sun goes down, we'll take care of your eyes.
+  Because a simple design change would be too boring, Auto Dark Mode is packed with useful functions. For example, we can also change your desktop wallpaper or run custom scripts.
+Moniker: autodarkmode
 Tags:
 - dark-theme
 - darkmode
 - light-theme
+- lightmode
 - theme-switch
+- light switch
 - wallpaper-changer
-- wpf
+- AutoNightMode
 ReleaseNotes: |-
   Changelog (10.4.1.1)
   - Fixed an issue where automatic theme switching remained active after it has been turned off.
@@ -51,6 +51,8 @@ ReleaseNotes: |-
 ReleaseNotesUrl: https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/tag/10.4.1.1
 # PurchaseUrl:
 # InstallationNotes:
-# Documentations:
+Documentations:
+- DocumentLabel: Wiki
+  DocumentUrl: https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/wiki
 ManifestType: defaultLocale
 ManifestVersion: 1.10.0
